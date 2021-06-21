@@ -14,12 +14,19 @@ $(function(){
 			$($this.addClass("clicked"));
 			$($this.removeClass("not-clicked"));
 		} else {
-
-			$this.css("background","0%");
+			const $this = $(this);
+			var secondPhoto = $this.data("secondary");
+			$this.css({ 'background-color': '#ffffff',  'background-image': 'none'});
 		}
 	});
 	$(".Reappear").click(function(){
-		$(".custom-image").css("background", "url(" + secondPhoto + ") center center / cover no-repeat");
+		$(".custom-image").each(function(){
+			const $this = $(this);
+			var firstPhoto = $this.data("primary");
+			$this.css("background","url(" + firstPhoto + ") center center / cover no-repeat");
+			$($this.addClass("not-clicked"));
+			$($this.removeClass("clicked"));
+		})
 
 	});
 });
