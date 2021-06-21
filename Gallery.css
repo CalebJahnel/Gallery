@@ -4,3 +4,107 @@
 	height: 0;
 	padding: 100% 0 0 0;
 }
+
+.custom-image{
+
+}
+
+#SELJALANADSFOSS{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/iceland-1751463_1280.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Black_Beach{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/2204-2017-0847218301495301460.jpeg" ) center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Glacier_Lagoon{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/iceland-698677_1280.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Glacier_Hike{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/glacier-1261558_1280-1024x682.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#SILFRAS{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/PhotosofIceland.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Continental_Rift{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/tectonic-plates-569347_1280-1024x768.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Mountains{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/landscape-1843082_1280-1024x768.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Pink_Sunset{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/iceland-2035439_1280-1024x499.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Northern_Lights{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/aircraft-1853293_1280-1024x682.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Stars{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/mountain-846062_1280.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Grass_Roof{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/skogar-1989483_1280.jpg")  center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+#Blue_Lagoon{
+	background: url("https://149359143.v2.pressablecdn.com/wp-content/uploads/2017/04/blue-lagoon-569346_1280.jpg") center center / cover no-repeat;
+
+	height: 0;
+	padding: 25% 0 0 0;
+}
+
+.navbar{
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+	padding: 15px 15px;
+	background-color: orange;
+	border-width: 5px;
+	border-color: black;
+	position: sticky;
+	top:0;
+	z-index: 50;
+}
+.navbar a {
+	padding: 15px 15px;
+}
+.navbar div {
+	padding: 15px 15px;
+}
+.navbar a:hover {
+	background-color: black;
+	color:white;
+}
+.navbar div:hover{
+	background-color: black;
+	color:white;
+}
